@@ -1,0 +1,49 @@
+@import './Components/card-left.css';
+@import './Components/card-rigth.css';
+
+:root {
+    /*colors*/
+    --Background:#fff;
+    --Gray: #BFB6AE;
+    --disable:#a3a3a3;
+    --orange: #D98C5F;
+    --secundary: #D9734E;
+    --Highlight: #D43D2E;;
+    --White: hsl(0, 0%, 100%);
+    --back: #000000;
+    --Slightlytransparent: hsla(0, 0%, 100%, 0.75);
+    --Slightly: hsla(0, 0%, 100%, 0.6);
+  
+    /*font size variable*/
+    --fontBase: 'Roboto', sans-serif;
+  
+    --headLine: bold 25px/30px var(--fontBase);
+    --Body: 15px/25px var(--fontBase);
+    --Label: 15px/25px var(--fontAlternative);
+    --Number: 15px/25px var(--fontBase);
+  
+    --headLineMTablet: bold 24px/35px var(--fontBase);
+    --BodyTablet: 24px/35px var(--fontBase);
+    --LabelTablet: 16px/35px var(--fontBase);
+    --SocialTablet: 300 12px/35px var(--fontBase);
+  
+    --HeadLineMobile1: lighter 25px/35px var(--fontBase);
+    --PriceMobile: bold 40px/49px var(--fontBase);
+    --H3Mobile: 14px/18px var(--fontBase);
+    --H2Mobile: bold 20px/25px var(--fontBase);
+    --InputMobile: 14px/18px var(--fontBase);
+    --ButtonMobile: bold 18px/22px var(--fontBase);
+    --advertenciaMobile: 12px/16px var(--fontBase);
+  }
+
+  body {
+    font-family: var(--fontBase);
+    text-align: center;
+    min-width: 360px;
+    padding: 0;
+    margin: 0;
+    min-width: 300px;
+  }
+
+
+  

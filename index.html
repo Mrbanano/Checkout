@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/icon/nike.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Nike Air max</title>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <main class="Main">
+        <section class="card-left">
+          <div class="card-left__Product">
+            <h1 class="ProductName">Air Max Orange and White</h1>
+            <h2 class="ProductBrand">Nike</h2>
+            <p class="ProductPrices">$59.99</p>
+          </div>
+          <div class="card-left__img">
+            <img
+              class="card-letf__imagen"
+              src="./assets/images/NikeAirMAx.png"
+              alt="NikeAirMaxOrangeAndWhite"
+            />
+          </div>
+        </section>
+        <section class="card-right">
+          <div class="progressBar">
+              <ul class="progressBar-content">
+                  <li class="defaul">Shipping</li>
+                  <li class="active">Biling</li>
+                  <li class="disable">Confirmation</li>
+              </ul>
+          </div>
+          <div class="paymentMethod">
+            <form action="">
+              <legend>Payment Method</legend>
+              <div class="labelcontent">
+                <label>
+                  <input type="radio" checked name="card-credit" value="1" />
+                  <span class="icon card-credit"></span>
+                </label>
+                <label>
+                  <input type="radio" disabled name="Paypal" value="2" />
+                  <span class="icon paypal"></span>
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="PaymentDetail">
+            <form action="" class="PaymentDetail__content">
+              <legend>Payment Detail</legend>
+              <div class="inputContainer">
+                <input
+                  class="inputPay"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Enter Name on Card"
+                />
+                <input
+                  class="inputPay"
+                  type="number"
+                  name="cardnumber"
+                  id="cardnumber"
+                  placeholder="Card Number"
+                />
+                <div class="InputCode">
+                  <input
+                    class="inputPay"
+                    type="number"
+                    name="exp"
+                    id="exp"
+                    placeholder="Expiration"
+                  />
+                  <div class="input-cvv">
+                    <input
+                      class="inputPay"
+                      type="number"
+                      name="cvv"
+                      id="cvv"
+                      placeholder="CVV"
+                    />
+                    <span class="icon visa"></span>
+                  </div>
+                </div>
+                <p class="Paymessage">
+                  By clicking “Confirm payment” i agree to the companys´s terms
+                  of services
+                </p>
+                <div class="payBnt">
+                  <a class="btn btn-primary" href="">
+                    Confirm Payment: $59.99
+                  </a>
+                  <a class="btn btn-secundary" href=""> Back </a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>

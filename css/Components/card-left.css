@@ -1,0 +1,43 @@
+.card-left{
+    min-width: 260px;
+}
+
+.card-left__Product{
+    padding-inline-start: 10px;
+    padding-block-start: 10px;
+    text-align: left;
+    height: 237px;
+    background-image: url(../../assets/images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:var(--Highlight);
+}
+.ProductName{
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font: var(--HeadLineMobile1);
+
+}
+.ProductBrand{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font: var(--HeadLineMobile1);
+    font-weight: normal;
+}
+
+.ProductPrices{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font: var(--PriceMobile) ;
+}
+
+.card-left__img{
+    margin-block-start: -150px;
+    text-align: right;
+}
+.card-letf__imagen{
+    margin-inline-end: 0px;
+    padding-inline-end: 24px;
+}

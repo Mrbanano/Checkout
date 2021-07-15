@@ -1,0 +1,9 @@
+@import '../items/progressBar.css';
+@import '../items/PayMethod.css';
+@import '../items/PayDetail.css';
+@import '../items/btnPay.css';
+
+.card-right{
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+}

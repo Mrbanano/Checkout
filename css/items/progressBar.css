@@ -1,0 +1,63 @@
+.progressBar{
+
+}
+
+.progressBar-content{
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.progressBar-content li{
+    list-style-type: none;
+    font: var(--H3Mobile);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.defaul{
+    color: var(--black);
+    text-align: left;
+}
+.active{
+    color: var(--Highlight);
+    font-weight: bold;
+}
+.disable{
+    text-align: right;
+    color: var(--disable);
+}
+.progressBar-content li::before{
+    margin-block-end: 5px;
+    content:"⬤";
+    font-size: 10px;
+}
+
+.progressBar-content .disable::before{
+    content: "⦾";
+    font-size: 20px;
+
+}
+
+.progressBar-content .active::before{
+    content:"⦿";
+    font-size: 25px;
+}
+
+.progressBar-content li::after{
+    content: " ";
+    position: absolute;
+    width: 98%;
+    height: 1px;
+    background: #000;
+    top:10px;
+    left: 1px;
+    z-index: -1;
+}
+
+.progressBar-content li:first-child::after{
+    background: red;
+}

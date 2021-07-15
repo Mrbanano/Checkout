@@ -1,0 +1,29 @@
+.payBnt {
+  margin-block-start: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  width: 100%;
+  height: 45px;
+  max-width: 350px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  text-decoration: none;
+  font: var(--ButtonMobile);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: var(--Highlight);
+  color: var(--White);
+}
+.btn-secundary {
+  margin-block-start: 30px;
+  border: 2px solid var(--Highlight);
+  color: var(--Highlight);
+}

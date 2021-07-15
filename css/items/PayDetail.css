@@ -1,0 +1,50 @@
+.PaymentDetail__content {
+
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer input {
+  border: 0;
+  border-bottom: 1px solid var(--disable);
+  border-radius: 0;
+  font: var(--InputMobile);
+  margin-block-end: 40px;
+}
+
+.InputCode {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.InputCode input{
+    
+    margin-inline-end: 40px;
+}
+.inputPay{
+    width: 90%;
+}
+
+.input-cvv {
+  display: flex;
+  width: 100%;
+}
+
+.input-cvv .icon {
+  display: inline-block;
+  width: 37px;
+  height: 12.14px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-inline-start: -80px;
+
+}
+
+.visa {
+  background-image: url("../../assets/icon/visa.png");
+}
