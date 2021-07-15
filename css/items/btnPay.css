@@ -24,6 +24,7 @@
 }
 .btn-secundary {
   margin-block-start: 30px;
+  margin-block-end: 30px;
   border: 2px solid var(--Highlight);
   color: var(--Highlight);
 }

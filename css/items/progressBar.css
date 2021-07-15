@@ -1,6 +1,3 @@
-.progressBar{
-
-}
 
 .progressBar-content{
     padding: 0;
@@ -15,6 +12,7 @@
     font: var(--H3Mobile);
     display: flex;
     flex-direction: column;
+    z-index: 2;
 }
 
 
@@ -38,12 +36,14 @@
 
 .progressBar-content .disable::before{
     content: "⦾";
+    z-index: 5;
     font-size: 20px;
 
 }
 
 .progressBar-content .active::before{
     content:"⦿";
+    z-index: 5;
     font-size: 25px;
 }
 
@@ -55,7 +55,7 @@
     background: #000;
     top:10px;
     left: 1px;
-    z-index: -1;
+    z-index: 1;
 }
 
 .progressBar-content li:first-child::after{
